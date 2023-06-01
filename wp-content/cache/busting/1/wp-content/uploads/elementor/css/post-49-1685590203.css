@@ -1,0 +1,103 @@
+.elementor-49 .elementor-element.elementor-element-29424327 > .elementor-element-populated{background-color:#d8d8d8;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-49 .elementor-element.elementor-element-29424327 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-49 .elementor-element.elementor-element-51051a96 .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-49 .elementor-element.elementor-element-406e508d{padding:3% 0% 2% 0%;}.elementor-49 .elementor-element.elementor-element-6eada6be{text-align:center;}.elementor-49 .elementor-element.elementor-element-6eada6be.elementor-widget-heading .elementor-heading-title{color:#4a4a4a;}.elementor-49 .elementor-element.elementor-element-6eada6be .elementor-heading-title{font-weight:400;}.elementor-49 .elementor-element.elementor-element-6eada6be .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-49 .elementor-element.elementor-element-ba54d6b .elementor-text-editor{text-align:center;}.elementor-49 .elementor-element.elementor-element-ba54d6b > .elementor-widget-container{margin:0% 0% 0% 0%;}.elementor-49 .elementor-element.elementor-element-ba54d6b .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-49 .elementor-element.elementor-element-92a2601 .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}@media(max-width:767px){.elementor-49 .elementor-element.elementor-element-51051a96{text-align:right;}.elementor-49 .elementor-element.elementor-element-51051a96 .elementor-image img{max-width:100%;}.elementor-49 .elementor-element.elementor-element-51051a96 > .elementor-widget-container{margin:0% -33% 0% -132%;}}/* Start custom CSS for image, class: .elementor-element-51051a96 */.header-hero{
+    max-height: 235px;
+    overflow: hidden;
+}/* End custom CSS */
+/* Start custom CSS for shortcode, class: .elementor-element-92a2601 */.wpgmp_tabs_container {
+    right:auto !important;
+    top:auto !important;
+    left:0;
+    bottom:8%;
+    width: 20% !important;
+    min-width: 200px;
+ box-shadow: none !important;
+    padding: 0 !important;
+    background: none !important;
+    z-index: 2 !important;
+}
+.wpgmp_tabs_container .wpgmp_tabs {
+    display: none !important;
+}
+.wpgmp_toggle_main_container{
+    margin: 0 !important;
+    overflow: visible !important;
+}
+.wpgmp_toggle_container{
+    display: none;
+}
+.wpgmp_tabs_container .wpgmp_tab_item {
+    text-indent: 0 !important;
+    padding: 0 !important;
+    height: 38px;
+    line-height: 36px;
+    font-size: 20px;
+    margin: 0 !important;
+    
+}
+#wpgmp_tab_0 {
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#wpgmp_tab_0 input[type="checkbox"] {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #333333 !important;
+    border-bottom: 0; 
+    margin: 0 !important;
+    text-indent: -999px;
+    -moz-appearance: none; /* For break FF default style limit */
+    border-radius: 0;
+}
+.wpgmp_tab_item a.wpgmp_cat_title {
+    pointer-events: none; /* make link text pass click event to back */
+}
+#wpgmp_tab_0 > input[type="checkbox"]{
+    background: #000000;
+    margin-bottom: -45px !important;
+}
+.wpgmp_tab_item input[type="checkbox"]{
+    background: #333333;
+}
+.wpgmp_tab_item input[type="checkbox"]:checked{
+    background: #000000;
+}
+.wpgmp_tab_item input[type="checkbox"] + a.wpgmp_cat_title {
+    color: #555;
+}
+.wpgmp_tab_item input[type="checkbox"]:checked + a.wpgmp_cat_title {
+    color: #FFF;
+}
+.wpgmp_tabs_container .wpgmp_tab_item .wpgmp_cat_title {
+    position: absolute;
+    left: 20px;
+    text-transform: uppercase;
+}
+.wpgmp_tabs_container .wpgmp_tab_item .wpgmp_cat_title span.arrow{
+    display: none;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+    #wpgmp_tab_0 > input[type="checkbox"]{
+        margin-bottom: -37px !important;
+    }
+    #wpgmp_tab_0 > br {
+        line-height: 30px;
+        pointer-events: none; /* make link text pass click event to back */
+    }
+    #wpgmp_tab_0 {font-size:11px;   line-height: 11px;}
+    .wpgmp_tabs_container .wpgmp_tab_item  {
+        width:50%;
+        display: inline-block;
+        font-size:11px; 
+    }
+    .wpgmp_tab_item a{
+        left: unset !important;
+        margin-left: calc(-50% + 10px);
+    }
+    .wpgmp_tabs_container{
+        width: 100% !important;
+        bottom:0;
+    }
+}/* End custom CSS */

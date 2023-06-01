@@ -1,0 +1,42 @@
+.elementor-1625 .elementor-element.elementor-element-3797dbb1 > .elementor-element-populated{background-color:#d8d8d8;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1625 .elementor-element.elementor-element-3797dbb1 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1625 .elementor-element.elementor-element-7758ab53 .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1625 .elementor-element.elementor-element-b707522{padding:3% 0% 2% 0%;}.elementor-1625 .elementor-element.elementor-element-7c02bc7{text-align:center;}.elementor-1625 .elementor-element.elementor-element-7c02bc7.elementor-widget-heading .elementor-heading-title{color:#4a4a4a;}.elementor-1625 .elementor-element.elementor-element-7c02bc7 .elementor-heading-title{font-weight:400;}.elementor-1625 .elementor-element.elementor-element-7c02bc7 .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1625 .elementor-element.elementor-element-4739e0a .elementor-text-editor{text-align:center;}.elementor-1625 .elementor-element.elementor-element-4739e0a > .elementor-widget-container{margin:0% 3% 0% 3%;}.elementor-1625 .elementor-element.elementor-element-4739e0a .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1625 .elementor-element.elementor-element-365374d{line-height:2.4em;}.elementor-1625 .elementor-element.elementor-element-365374d .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1625 .elementor-element.elementor-element-c36c1e4 .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}@media(max-width:767px){.elementor-1625 .elementor-element.elementor-element-7758ab53{text-align:right;}.elementor-1625 .elementor-element.elementor-element-7758ab53 .elementor-image img{max-width:100%;}.elementor-1625 .elementor-element.elementor-element-7758ab53 > .elementor-widget-container{margin:0% -45% 0% -120%;}.elementor-1625 .elementor-element.elementor-element-4739e0a .elementor-text-editor{text-align:justify;}.elementor-1625 .elementor-element.elementor-element-4739e0a > .elementor-widget-container{margin:0% 0% 0% 0%;}}/* Start custom CSS for image, class: .elementor-element-7758ab53 */.header-hero{
+    max-height: 235px;
+    overflow: hidden;
+}/* End custom CSS */
+/* Start custom CSS for void-section-cf7, class: .elementor-element-c36c1e4 */.form-row{
+	width: 100%;
+}
+.column-half{
+	float: left;
+	position: relative;
+	padding:0 3% 2% 0;
+	width:50%;
+}
+@media (max-width: 1023px) {
+    .column-half.clear-half{
+        width:auto;
+        float:none;
+    }
+}
+
+.column-half + .column-half{
+    padding-right:0;
+}
+.column-half input[type="submit"] {
+    float:right;
+    min-width: 80%;
+    margin-top: 9.4%;
+}
+.column-half.clear-half input[type="submit"] {
+    float:none;
+    width: 95%;
+    margin: 5% 0 5% 0;
+}
+.wpcf7-form-control-wrap {
+    /* margin: 0 -5.5%; */
+}
+@media (max-width: 1023px){ 
+    .column-half.clear-half input[type="submit"] {
+        width:100%;
+        border-radius: 0;
+    }
+}/* End custom CSS */
